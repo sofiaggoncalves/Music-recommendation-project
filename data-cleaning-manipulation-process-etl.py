@@ -17,6 +17,7 @@ import tqdm
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 
+
 #API Keys
 api_key = 'your-key-here' # Musixmatch API key
 openai.api_key = 'your-key-here' # OpenAI API key
