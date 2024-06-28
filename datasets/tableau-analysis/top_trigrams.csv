@@ -1,0 +1,11 @@
+trigram,count
+"('la', 'la', 'la')",81
+"('I', 'want', 'to')",75
+"('I', 'dont', 'know')",68
+"('oh', 'oh', 'oh')",49
+"('I', 'think', 'I')",47
+"('I', 'love', 'you')",44
+"('I', 'dont', 'want')",43
+"('on', 'come', 'on')",40
+"('I', 'know', 'that')",38
+"('want', 'to', 'be')",37
