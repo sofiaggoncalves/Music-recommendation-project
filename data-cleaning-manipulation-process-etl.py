@@ -146,6 +146,9 @@ print(f"Total songs in dataset: {merged_dataset.shape[0]}")
 # Data Cleaning: Handle missing values, if any
 merged_dataset.dropna(subset=['lyrics', 'mood'], inplace=True)
 
+# Save the cleaned dataset with lyrics
+merged_dataset.to_csv('cleaned_dataset_with_lyrics.csv', index=False)
+print("Cleaned dataset with lyrics saved to 'cleaned_dataset_with_lyrics.csv'.")
 
 # Download necessary NLTK data
 nltk.download('stopwords')
